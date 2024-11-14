@@ -1,0 +1,79 @@
+.task-form-container {
+    max-width: 500px; 
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+.task-form-container label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+    color: #555; 
+}
+
+.task-form-container input,
+.task-form-container select,
+.task-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;  
+    border-radius: 4px;  
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; 
+}
+
+.task-form-container textarea {
+    min-height: 120px;
+    resize: vertical;  
+}
+
+.task-form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px; 
+    font-size: 16px;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center; 
+    margin-top: 15px; 
+}
+
+.task-form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.required {
+    color: red;
+    font-weight: bold;
+    margin-left: 4px;  
+    font-size: 1.2em; 
+}
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 4px;
+    display: block;
+}
